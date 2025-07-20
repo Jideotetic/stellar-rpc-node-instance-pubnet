@@ -1,8 +1,8 @@
 services:
-  rpc1:
-    build: .
+  stellar-rpc-node-instance-pubnet1:
     ports:
       - "8003:8000"
+    image: jideotetic/stellar-rpc-node-instance-pubnet:latest
     volumes:
       - ./config:/opt/stellar
       - ./data:/opt/stellar/data
