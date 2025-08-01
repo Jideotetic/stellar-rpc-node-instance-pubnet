@@ -3,7 +3,4 @@ services:
     ports:
       - "8003:8000"
     image: jideotetic/stellar-rpc-node-instance-pubnet:latest
-    volumes:
-      - ./config:/opt/stellar
-      - ./data:/opt/stellar/data
     restart: always
