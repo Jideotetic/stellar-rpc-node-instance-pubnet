@@ -5,14 +5,14 @@ services:
     image: stellar-rpc-node-instance-pubnet
     restart: always
 
-  stellar-rpc-node-instance-pubnet2:
-    ports:
-      - "8004:8000"
-    image: stellar-rpc-node-instance-pubnet
-    restart: always
+  # stellar-rpc-node-instance-pubnet2:
+  #   ports:
+  #     - "8004:8000"
+  #   image: stellar-rpc-node-instance-pubnet
+  #   restart: always
 
-  stellar-rpc-node-instance-pubnet3:
-    ports:
-      - "8005:8000"
-    image: stellar-rpc-node-instance-pubnet
-    restart: always
+  # stellar-rpc-node-instance-pubnet3:
+  #   ports:
+  #     - "8005:8000"
+  #   image: stellar-rpc-node-instance-pubnet
+  #   restart: always
