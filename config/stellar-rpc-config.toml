@@ -35,7 +35,7 @@ DEFAULT_TRANSACTIONS_LIMIT = 50
 ENDPOINT = "0.0.0.0:8000"
 
 # The friendbot URL to be returned by getNetwork endpoint
-# FRIENDBOT_URL = ""
+# FRIENDBOT_URL = "https://friendbot.stellar.org"
 
 # comma-separated list of stellar history archives to connect with
 HISTORY_ARCHIVE_URLS = [
