@@ -1,18 +1,18 @@
 services:
-  stellar-rpc-node-instance-pubnet1:
+  stellar-rpc-node-instance-pubnet-new-1:
     ports:
       - "8003:8000"
-    image: stellar-rpc-node-instance-pubnet
+    image: stellar-rpc-node-instance-pubnet-new
     restart: always
 
-  stellar-rpc-node-instance-pubnet2:
+  stellar-rpc-node-instance-pubnet-new-2:
     ports:
       - "8004:8000"
-    image: stellar-rpc-node-instance-pubnet
+    image: stellar-rpc-node-instance-pubnet-new
     restart: always
 
-  stellar-rpc-node-instance-pubnet3:
+  stellar-rpc-node-instance-pubnet-new-3:
     ports:
       - "8005:8000"
-    image: stellar-rpc-node-instance-pubnet
+    image: stellar-rpc-node-instance-pubnet-new
     restart: always
