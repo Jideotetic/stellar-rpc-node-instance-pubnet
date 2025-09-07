@@ -2,17 +2,29 @@ services:
   stellar-rpc-node-instance-pubnet-new-1:
     ports:
       - "8003:8000"
-    image: stellar-rpc-node-instance-pubnet-new
+    image: stellar-rpc-node-instance-pubnet
     restart: always
+    # volumes:
+    #   - captive-core-data:/opt/stellar/data/captive-core
+    #   - rpc-db:/opt/stellar/data/db
 
   stellar-rpc-node-instance-pubnet-new-2:
     ports:
       - "8004:8000"
     image: stellar-rpc-node-instance-pubnet-new
     restart: always
+    # volumes:
+    #   - captive-core-data:/opt/stellar/data/captive-core
+    #   - rpc-db:/opt/stellar/data/db
 
   stellar-rpc-node-instance-pubnet-new-3:
     ports:
       - "8005:8000"
     image: stellar-rpc-node-instance-pubnet-new
     restart: always
+  #   volumes:
+  #     - captive-core-data:/opt/stellar/data/captive-core
+  #     - rpc-db:/opt/stellar/data/db
+# volumes:
+#   captive-core-data:
+#   rpc-db:
