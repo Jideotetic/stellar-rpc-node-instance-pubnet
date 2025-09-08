@@ -47,7 +47,7 @@ HISTORY_ARCHIVE_URLS = [
 # configures history retention window for transactions and events, expressed in
 # number of ledgers, the default value is 120960 which corresponds to about 7
 # days of history
-HISTORY_RETENTION_WINDOW = 120960
+HISTORY_RETENTION_WINDOW = 51840
 
 # Ingestion Timeout when bootstrapping data (checkpoint and in-memory
 # initialization) and preparing ledger reads
